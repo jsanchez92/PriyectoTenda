@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\tienda.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:tienda.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\controllers\\cfabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:controllers\\cfabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\views\\frmfabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:views\\frmfabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|C:\\Users\\USUARIO\\source\\repos\\Tienda\\views\\frmfabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:views\\frmfabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\utils\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:utils\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\models\\mfabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:models\\mfabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\controllers\\ibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:controllers\\ibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\utils\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:utils\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\controllers\\cproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:controllers\\cproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\models\\mproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:models\\mproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|C:\\Users\\USUARIO\\source\\repos\\Tienda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|c:\\users\\usuario\\source\\repos\\tienda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08B7834-872F-4458-BC64-1AC6F98C8011}|Tienda.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +58,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Controllers\\IBuilder.cs",
+              "RelativeDocumentMoniker": "Controllers\\IBuilder.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Controllers\\IBuilder.cs",
+              "RelativeToolTip": "Controllers\\IBuilder.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T16:50:40.272Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Utils\\Utilities.cs",
+              "RelativeDocumentMoniker": "Utils\\Utilities.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Utils\\Utilities.cs",
+              "RelativeToolTip": "Utils\\Utilities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T16:19:44.968Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FrmFabricante.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Views\\FrmFabricante.cs",
+              "RelativeDocumentMoniker": "Views\\FrmFabricante.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Views\\FrmFabricante.cs",
+              "RelativeToolTip": "Views\\FrmFabricante.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAIA4wB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:54:32.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmFabricante.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Views\\FrmFabricante.cs",
+              "RelativeDocumentMoniker": "Views\\FrmFabricante.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Views\\FrmFabricante.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Views\\FrmFabricante.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:49:36.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CFabricante.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Controllers\\CFabricante.cs",
+              "RelativeDocumentMoniker": "Controllers\\CFabricante.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Controllers\\CFabricante.cs",
+              "RelativeToolTip": "Controllers\\CFabricante.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAADwv2AAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T16:48:56.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MProductos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Models\\MProductos.cs",
+              "RelativeDocumentMoniker": "Models\\MProductos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Models\\MProductos.cs",
+              "RelativeToolTip": "Models\\MProductos.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T16:44:07.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Connexion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Utils\\Connexion.cs",
+              "RelativeDocumentMoniker": "Utils\\Connexion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Utils\\Connexion.cs",
+              "RelativeToolTip": "Utils\\Connexion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:34:41.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MFabricante.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Models\\MFabricante.cs",
+              "RelativeDocumentMoniker": "Models\\MFabricante.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Models\\MFabricante.cs",
+              "RelativeToolTip": "Models\\MFabricante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T16:43:56.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:56:53.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CProductos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Controllers\\CProductos.cs",
+              "RelativeDocumentMoniker": "Controllers\\CProductos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Controllers\\CProductos.cs",
+              "RelativeToolTip": "Controllers\\CProductos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T16:48:44.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -43,41 +201,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Connexion.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Utils\\Connexion.cs",
-              "RelativeDocumentMoniker": "Utils\\Connexion.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Utils\\Connexion.cs",
-              "RelativeToolTip": "Utils\\Connexion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBAAAACCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:34:41.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tienda",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Tienda.csproj",
-              "RelativeDocumentMoniker": "Tienda.csproj",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Tienda.csproj",
-              "RelativeToolTip": "Tienda.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-12T14:32:30.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Tienda\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:25:42.646Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-12T14:25:42.646Z"
             }
           ]
         }
