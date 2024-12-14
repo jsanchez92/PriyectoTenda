@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tienda.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Tienda.Controllers
 {
@@ -39,7 +40,29 @@ namespace Tienda.Controllers
 
         public string Delete(int id)
         {
-            throw new NotImplementedException();
+            string respuesta = string.Empty;
+            SqlConnection sqlCon = new SqlConnection();
+            sqlCon.ConnectionString = Utils.Connexion.Cn;
+            SqlCommand Cmd = new SqlCommand();
+            try
+            {
+                sqlCon.Open();
+                Cmd.CommandType = CommandType.StoredProcedure;
+                Cmd.CommandText = "delete fabricante where id = @Id";
+                Cmd.CommandType = CommandType.Text;
+
+                Cmd.Connection = sqlCon;
+                Cmd.Parameters.AddWithValue("@Id", id);
+                Cmd.ExecuteNonQuery();
+                respuesta = "Ok";
+                sqlCon.Dispose();
+
+            }
+            catch (SqlException Ex)
+            {
+                respuesta = Ex.Message;
+            }
+            return respuesta;
         }
 
         public DataTable Show(string searchText)
