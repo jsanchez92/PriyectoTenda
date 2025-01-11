@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Tienda.Models
 {
-    public class MFabricante : MPersona
+    public class MEmpleados : MPersona
     {
-        public string Telefono { get; set; }
+        public int Salario { get; set; }
     }
 }

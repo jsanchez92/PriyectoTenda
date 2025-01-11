@@ -1,4 +1,4 @@
-﻿namespace Tienda.Views
+﻿namespace Tienda.Views.VwFabricante
 {
     partial class FrmFabricante
     {
@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
+            BtnAddNew = new Button();
             label1 = new Label();
             panel2 = new Panel();
             BtnGuardar = new Button();
@@ -45,22 +47,41 @@
             panel4 = new Panel();
             TxtBusqueda = new TextBox();
             label2 = new Label();
+            CtMenu = new ContextMenuStrip(components);
+            nuevoToolStripMenuItem = new ToolStripMenuItem();
+            refrescarToolStripMenuItem = new ToolStripMenuItem();
+            editarToolStripMenuItem = new ToolStripMenuItem();
+            eliminarToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator1 = new ToolStripSeparator();
+            salirToolStripMenuItem = new ToolStripMenuItem();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DtFabricante).BeginInit();
             panel5.SuspendLayout();
             panel4.SuspendLayout();
+            CtMenu.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(BtnAddNew);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(1881, 141);
             panel1.TabIndex = 0;
+            // 
+            // BtnAddNew
+            // 
+            BtnAddNew.Location = new Point(1639, 63);
+            BtnAddNew.Name = "BtnAddNew";
+            BtnAddNew.Size = new Size(188, 58);
+            BtnAddNew.TabIndex = 9;
+            BtnAddNew.Text = "Nuevo";
+            BtnAddNew.UseVisualStyleBackColor = true;
+            BtnAddNew.Click += BtnAddNew_Click;
             // 
             // label1
             // 
@@ -86,6 +107,7 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(444, 805);
             panel2.TabIndex = 1;
+            panel2.Visible = false;
             panel2.Paint += panel2_Paint;
             // 
             // BtnGuardar
@@ -223,11 +245,57 @@
             label2.TabIndex = 0;
             label2.Text = "Buscar...";
             // 
+            // CtMenu
+            // 
+            CtMenu.ImageScalingSize = new Size(40, 40);
+            CtMenu.Items.AddRange(new ToolStripItem[] { nuevoToolStripMenuItem, refrescarToolStripMenuItem, editarToolStripMenuItem, eliminarToolStripMenuItem, toolStripSeparator1, salirToolStripMenuItem });
+            CtMenu.Name = "CtMenu";
+            CtMenu.Size = new Size(361, 305);
+            // 
+            // nuevoToolStripMenuItem
+            // 
+            nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
+            nuevoToolStripMenuItem.Size = new Size(360, 48);
+            nuevoToolStripMenuItem.Text = "Nuevo";
+            nuevoToolStripMenuItem.Click += nuevoToolStripMenuItem_Click;
+            // 
+            // refrescarToolStripMenuItem
+            // 
+            refrescarToolStripMenuItem.Name = "refrescarToolStripMenuItem";
+            refrescarToolStripMenuItem.Size = new Size(360, 48);
+            refrescarToolStripMenuItem.Text = "Refrescar";
+            refrescarToolStripMenuItem.Click += refrescarToolStripMenuItem_Click;
+            // 
+            // editarToolStripMenuItem
+            // 
+            editarToolStripMenuItem.Name = "editarToolStripMenuItem";
+            editarToolStripMenuItem.Size = new Size(360, 48);
+            editarToolStripMenuItem.Text = "Editar";
+            editarToolStripMenuItem.Click += editarToolStripMenuItem_Click;
+            // 
+            // eliminarToolStripMenuItem
+            // 
+            eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
+            eliminarToolStripMenuItem.Size = new Size(360, 48);
+            eliminarToolStripMenuItem.Text = "Eliminar";
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new Size(357, 6);
+            // 
+            // salirToolStripMenuItem
+            // 
+            salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            salirToolStripMenuItem.Size = new Size(360, 48);
+            salirToolStripMenuItem.Text = "Salir";
+            // 
             // FrmFabricante
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1881, 946);
+            ContextMenuStrip = CtMenu;
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -244,6 +312,7 @@
             panel5.PerformLayout();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
+            CtMenu.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -266,5 +335,13 @@
         private Button BtnCancelar;
         private Label label5;
         private DataGridView DtFabricante;
+        private Button BtnAddNew;
+        private ContextMenuStrip CtMenu;
+        private ToolStripMenuItem nuevoToolStripMenuItem;
+        private ToolStripMenuItem refrescarToolStripMenuItem;
+        private ToolStripMenuItem editarToolStripMenuItem;
+        private ToolStripMenuItem eliminarToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator1;
+        private ToolStripMenuItem salirToolStripMenuItem;
     }
 }

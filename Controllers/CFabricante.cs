@@ -15,6 +15,11 @@ namespace Tienda.Controllers
         public string Add(MFabricante data)
         {
             string respuesta = string.Empty;
+            if (VerificarFabricante(data)) {
+                respuesta = "El fabricante ya existe.";
+                return respuesta;
+            }
+
             SqlConnection sqlCon = new SqlConnection();
             sqlCon.ConnectionString = Utils.Connexion.Cn;
             SqlCommand Cmd = new SqlCommand();
@@ -25,7 +30,8 @@ namespace Tienda.Controllers
                 Cmd.CommandType = CommandType.Text;
 
                 Cmd.Connection = sqlCon;
-                Cmd.Parameters.AddWithValue("@Nombre", data.Nombre);
+                Cmd.Parameters.AddWithValue("@Nombre", data.Nombres);
+
                 Cmd.ExecuteNonQuery();
                 respuesta = "Ok";
                 sqlCon.Dispose();
@@ -108,7 +114,7 @@ namespace Tienda.Controllers
 
                 Cmd.Connection = sqlCon;
                 Cmd.Parameters.AddWithValue("@Id", data.Id);
-                Cmd.Parameters.AddWithValue("@Nombre", data.Nombre);
+                Cmd.Parameters.AddWithValue("@Nombre", data.Nombres);
                 Cmd.ExecuteNonQuery();
                 respuesta = "Ok";
                 sqlCon.Dispose();
@@ -117,6 +123,39 @@ namespace Tienda.Controllers
             catch (SqlException Ex)
             {
                 respuesta = Ex.Message;
+            }
+            return respuesta;
+        }
+
+        /// <summary>
+        /// Verifica si el fabricante ya existe en la base de datos.
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        public bool VerificarFabricante(MFabricante data)
+        {
+            bool respuesta = false;
+            SqlConnection sqlCon = new SqlConnection();
+            sqlCon.ConnectionString = Utils.Connexion.Cn;
+            SqlCommand Cmd = new SqlCommand();
+            try
+            {
+                sqlCon.Open();
+                Cmd.CommandText = "select count(id) from fabricante where UPPER(nombre) = @Nombre";
+                Cmd.CommandType = CommandType.Text;
+
+                Cmd.Connection = sqlCon;
+                Cmd.Parameters.AddWithValue("@Nombre", data.Nombres);
+
+                int existe = Convert.ToInt32(Cmd.ExecuteScalar()); // ejecucion del comando   
+                
+                respuesta = existe > 0 ? true : false;
+                sqlCon.Dispose();
+
+            }
+            catch (SqlException Ex)
+            {
+                respuesta = true;
             }
             return respuesta;
         }

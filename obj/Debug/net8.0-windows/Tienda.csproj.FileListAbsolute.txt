@@ -23,4 +23,5 @@ C:\Users\USUARIO\source\repos\Tienda\bin\Debug\net8.0-windows\runtimes\win\lib\n
 C:\Users\USUARIO\source\repos\Tienda\obj\Debug\net8.0-windows\Tienda.csproj.AssemblyReference.cache
 C:\Users\USUARIO\source\repos\Tienda\obj\Debug\net8.0-windows\Tienda.csproj.Up2Date
 C:\Users\USUARIO\source\repos\Tienda\obj\Debug\net8.0-windows\Tienda.sourcelink.json
-C:\Users\USUARIO\source\repos\Tienda\obj\Debug\net8.0-windows\Tienda.Views.FrmFabricante.resources
+C:\Users\USUARIO\source\repos\Tienda\obj\Debug\net8.0-windows\Tienda.Views.VwFabricante.FrmFabricante.resources
+C:\Users\USUARIO\source\repos\Tienda\obj\Debug\net8.0-windows\Tienda.Views.VwFabricantes.VwFabricanteAdd.resources
